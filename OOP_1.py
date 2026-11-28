@@ -19,3 +19,20 @@ Student_1.display()
 Student_1.average()
 Student_2.display()
 Student_2.average()
+
+class Dog:
+    def __init__(self, name, breed):
+       self.name = name
+       self.breed = breed
+    def display(self):
+       print("\nDog Details")
+       print("Name:", self.name)
+       print("Breed:", self.breed)
+    def barks(self):
+       print("Woof Woof!")
+Dog_1 = Dog("Tuffy", "French Bulldog")
+Dog_2 = Dog("Max", "Labrador Retriever")
+Dog_1.display()
+Dog_2.display()
+Dog_1.barks()
+Dog_2.barks()
